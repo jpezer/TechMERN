@@ -1,0 +1,54 @@
+@import "../../assets/sass/main.scss";
+
+@import "../../assets/sass/main.scss";
+
+.register-form-wrapper {
+    width: 50%;
+    margin: 0 auto;
+    padding: 5rem 0;
+    .content {
+        margin-bottom: 2rem;
+
+        span {
+            font-weight: bold;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.3rem;
+            text-transform: uppercase;
+            cursor: pointer;
+            svg {
+                transition: all 0.3s ease-in-out;
+            }
+            &:hover svg {
+                transform: translateX(5px);
+            }
+        }
+    }
+    .register-form {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+
+        .input-wrapper {
+            display: flex;
+            flex-direction: column;
+            position: relative;
+
+            input {
+                width: 100%;
+                padding: 0.5rem 1rem;
+            }
+            label {
+                font-size: 1.2rem;
+            }
+
+            span {
+                position: absolute;
+                right: 3%;
+                top: 56%;
+                font-size: 1.2rem;
+                cursor: pointer;
+            }
+        }
+    }
+}
